@@ -5,9 +5,9 @@ namespace SixLabors.Fonts.MonoGame.Core;
 /// <summary>
 /// Wraps any <see cref="Font"/> instance for usage with Monogame.
 /// </summary>
-public sealed class MonogameFont
+public sealed class MonoGameFont
 {
-    internal MonogameFont(Font font, TextOptions options)
+    internal MonoGameFont(Font font, TextOptions options)
     {
         Font        = font;
         TextOptions = options;

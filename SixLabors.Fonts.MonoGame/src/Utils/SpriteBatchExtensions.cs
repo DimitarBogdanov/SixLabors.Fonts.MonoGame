@@ -11,7 +11,7 @@ namespace SixLabors.Fonts.MonoGame.Utils;
 
 public static class SpriteBatchExtensions
 {
-    public static void DrawText(this SpriteBatch batch, MonogameFont font, string text, Vector2 position)
+    public static void DrawText(this SpriteBatch batch, MonoGameFont font, string text, Vector2 position)
     {
         Vector2 bounds = font.MeasureString(text);
 

@@ -47,7 +47,7 @@ public sealed class FontEngine
     /// <param name="fontName">The name of the font.</param>
     /// <param name="fontSize">The size of the font.</param>
     /// <param name="fontStyle">Font style (bold, italic, etc.). Defaults to Regular.</param>
-    public MonogameFont GetFont(string fontName, float fontSize, FontStyle fontStyle = FontStyle.Regular)
+    public MonoGameFont GetFont(string fontName, float fontSize, FontStyle fontStyle = FontStyle.Regular)
     {
         if (!_fontCollection.TryGet(fontName, out FontFamily family))
         {
@@ -55,7 +55,7 @@ public sealed class FontEngine
         }
 
         Font font = family.CreateFont(fontSize, fontStyle);
-        MonogameFont wrapper = new MonogameFont(font, new TextOptions(font)
+        MonoGameFont wrapper = new MonoGameFont(font, new TextOptions(font)
         {
             FallbackFontFamilies = FallbackFontFamilies.ToArray()
         });
@@ -69,7 +69,7 @@ public sealed class FontEngine
     /// <exception cref="InvalidOperationException"><see cref="DefaultFontName"/> is null.</exception>
     /// <param name="fontSize">The size of the font.</param>
     /// <param name="fontStyle">Font style (bold, italic, etc.). Defaults to Regular.</param>
-    public MonogameFont GetDefaultFont(float fontSize, FontStyle fontStyle = FontStyle.Regular)
+    public MonoGameFont GetDefaultFont(float fontSize, FontStyle fontStyle = FontStyle.Regular)
     {
         if (DefaultFontName == null)
         {
@@ -80,18 +80,18 @@ public sealed class FontEngine
     }
 
     /// <summary>
-    /// Retrieves a <see cref="DynamicMonogameFont"/>.
+    /// Retrieves a <see cref="DynamicMonoGameFont"/>.
     /// </summary>
     /// <param name="fontName">The name of the font.</param>
     /// <exception cref="FontFamilyNotFoundException">The font family is not loaded.</exception>
-    public DynamicMonogameFont GetDynamicFont(string fontName)
+    public DynamicMonoGameFont GetDynamicFont(string fontName)
     {
         if (!_fontCollection.TryGet(fontName, out FontFamily family))
         {
             throw new FontFamilyNotFoundException($"Font family {fontName} does not exist.");
         }
 
-        return new DynamicMonogameFont(fontName, this);
+        return new DynamicMonoGameFont(fontName, this);
     }
 
     /// <summary>
