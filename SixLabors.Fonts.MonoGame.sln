@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unofficial.SixLabors.Fonts.MonoGame", "Unofficial.SixLabors.Fonts.MonoGame\Unofficial.SixLabors.Fonts.MonoGame.csproj", "{394D7753-81CA-478D-88E6-FF0C78DBBEDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixLabors.Fonts.MonoGame", "SixLabors.Fonts.MonoGame\SixLabors.Fonts.MonoGame.csproj", "{394D7753-81CA-478D-88E6-FF0C78DBBEDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
