@@ -21,7 +21,10 @@ public sealed class DynamicMonoGameFont
     /// </summary>
     private readonly FontEngine _fontEngine;
 
-    private MonoGameFont GetFont(float size, FontStyle style = FontStyle.Regular)
+    /// <summary>
+    /// Retrieves a <see cref="MonoGameFont"/> instance with this font name.
+    /// </summary>
+    public MonoGameFont GetFont(float size, FontStyle style = FontStyle.Regular)
     {
         MonoGameFont font = _fontEngine.GetFont(FontName, size, style);
         return font;
