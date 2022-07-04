@@ -19,7 +19,7 @@ public static class SpriteBatchExtensions
         (int width, int height) = ((int) bounds.X, (int) bounds.Y);
         using Image<Rgba32> image = new(width, height);
         image.Mutate(
-            x => x.DrawText(text, font.Font, ImageSharp.Color.White, PointF.Empty)
+            x => x.DrawText(font.TextOptions, text, ImageSharp.Color.White)
         );
 
         // Monogame conversion stuff
