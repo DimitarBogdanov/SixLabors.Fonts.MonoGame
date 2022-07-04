@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixLabors.Fonts.Monogame", "SixLabors.Fonts.Monogame\SixLabors.Fonts.Monogame.csproj", "{BF9C121B-E836-4FC2-BDC0-AFD8441E64FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF9C121B-E836-4FC2-BDC0-AFD8441E64FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9C121B-E836-4FC2-BDC0-AFD8441E64FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9C121B-E836-4FC2-BDC0-AFD8441E64FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9C121B-E836-4FC2-BDC0-AFD8441E64FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
