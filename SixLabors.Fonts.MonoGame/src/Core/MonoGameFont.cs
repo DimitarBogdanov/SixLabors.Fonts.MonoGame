@@ -40,22 +40,4 @@ public sealed class MonoGameFont
         FontRectangle result = TextMeasurer.Measure(text, TextOptions);
         return new Vector2(result.Width, result.Height);
     }
-
-    /// <summary>
-    /// Measures the bounds of the given text.
-    /// </summary>
-    public Vector2 MeasureBounds(string text)
-    {
-        FontRectangle result = TextMeasurer.MeasureBounds(text, TextOptions);
-        return new Vector2(result.Width, result.Height);
-    }
-
-    /// <summary>
-    /// Measures the bounds of the given text.
-    /// </summary>
-    public Vector2 MeasureBounds(ReadOnlySpan<char> text)
-    {
-        FontRectangle result = TextMeasurer.MeasureBounds(text, TextOptions);
-        return new Vector2(result.Width, result.Height);
-    }
 }
