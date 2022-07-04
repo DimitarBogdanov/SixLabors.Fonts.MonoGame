@@ -15,7 +15,7 @@ The premise is simple: we have a `FontEngine`, which we use to store our fonts. 
 FontEngine engine = new();
 engine.LoadFont("path/to/some-cool-font.ttf");
 
-// The file name is the font name we need to use.
+// The font name from the truetype file is what we need to use here.
 MonoGameFont font = engine.GetFont("some-cool-font", 24f);
 
 // We've got the font! Now we can draw.
