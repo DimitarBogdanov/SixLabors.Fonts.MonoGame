@@ -80,6 +80,21 @@ public sealed class FontEngine
     }
 
     /// <summary>
+    /// Retrieves a <see cref="DynamicMonogameFont"/>.
+    /// </summary>
+    /// <param name="fontName">The name of the font.</param>
+    /// <exception cref="FontFamilyNotFoundException">The font family is not loaded.</exception>
+    public DynamicMonogameFont GetDynamicFont(string fontName)
+    {
+        if (!_fontCollection.TryGet(fontName, out FontFamily family))
+        {
+            throw new FontFamilyNotFoundException($"Font family {fontName} does not exist.");
+        }
+
+        return new DynamicMonogameFont(fontName, this);
+    }
+
+    /// <summary>
     /// Checks whether the engine has a certain font.
     /// </summary>
     public bool HasFont(string fontName)

@@ -1,11 +1,11 @@
 ﻿namespace SixLabors.Fonts.MonoGame.Core;
 
 /// <summary>
-/// Wraps a <see cref="MonogameFont"/> to provide support for any wanted size.
+/// Wraps a <see cref="MonogameFont"/> to provide support for any wanted size and style.
 /// </summary>
-public sealed class DynamicSizeMonogameFont
+public sealed class DynamicMonogameFont
 {
-    internal DynamicSizeMonogameFont(string fontName, FontEngine fontEngine)
+    internal DynamicMonogameFont(string fontName, FontEngine fontEngine)
     {
         FontName    = fontName;
         _fontEngine = fontEngine;
