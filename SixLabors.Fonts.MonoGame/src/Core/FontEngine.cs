@@ -104,9 +104,9 @@ public sealed class FontEngine
     /// <exception cref="FontFamilyNotFoundException">The font family is not loaded.</exception>
     public DynamicMonoGameFont GetDynamicFont(string fontName)
     {
-        if (!_fontCollection.TryGet(fontName, out FontFamily family))
+        if (!_fontCollection.TryGet(fontName, out FontFamily _))
         {
-            throw new FontFamilyNotFoundException($"Font family {fontName} does not exist.");
+            throw new FontFamilyNotFoundException(fontName);
         }
 
         return new DynamicMonoGameFont(fontName, this);
