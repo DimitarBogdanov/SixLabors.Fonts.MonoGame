@@ -31,14 +31,26 @@ public sealed class FontEngine
     /// available when displaying text.
     /// </summary>
     public List<FontFamily> FallbackFontFamilies { get; }
-
-
-    public string? DefaultFontName { get; set; }
+    
+    public string? DefaultFontName
+    {
+        get => _defaultFontName;
+        set
+        {
+            if (value != null && !HasFont(value))
+            {
+                throw new FontFamilyNotFoundException($"Font family {value} does not exist.");
+            }
+            _defaultFontName = value;
+        }
+    }
 
     /// <summary>
     /// Internal font collection.
     /// </summary>
     private readonly FontCollection _fontCollection;
+
+    private string? _defaultFontName;
 
     /// <summary>
     /// Retrieves the specified font family. 
