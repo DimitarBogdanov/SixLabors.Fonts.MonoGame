@@ -21,8 +21,14 @@ public sealed class FontEngine
             // Just a couple of well-spread fonts across systems.
             // This should suffice.
             TryLoadFallback("Arial");
-            TryLoadFallback("Courier");
             TryLoadFallback("Helvetica");
+            TryLoadFallback("Tahoma");
+            TryLoadFallback("Trebuchet MS");
+            TryLoadFallback("Times New Roman");
+            TryLoadFallback("Hiragino Sans GB");
+            TryLoadFallback("Microsoft Yahei");
+            TryLoadFallback("Meiryo");
+            TryLoadFallback("MS Gothic");
         }
     }
 
