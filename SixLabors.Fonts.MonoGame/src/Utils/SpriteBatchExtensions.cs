@@ -11,7 +11,7 @@ namespace SixLabors.Fonts.MonoGame.Utils;
 
 public static class SpriteBatchExtensions
 {
-    public static void DrawText(this SpriteBatch batch, MonoGameFont font, string text, Vector2 position)
+    public static void DrawText(this SpriteBatch batch, MonoGameFont font, string text, Vector2 position, XnaColor color)
     {
         Vector2 bounds = font.MeasureString(text);
 
@@ -30,8 +30,8 @@ public static class SpriteBatchExtensions
         int x = 0, y = 0;
         for (int i = 0; i < width * height; ++i)
         {
-            Rgba32 color = image[x, y];
-            data[i] = new XnaColor(color.R, color.G, color.B, color.A);
+            Rgba32 pixelColor = image[x, y];
+            data[i] = new XnaColor(pixelColor.R, pixelColor.G, pixelColor.B, pixelColor.A);
                 
             if (++x == width)
             {
@@ -40,6 +40,6 @@ public static class SpriteBatchExtensions
             }
         }
         tex.SetData(data);
-        batch.Draw(tex, position, XnaColor.White);
+        batch.Draw(tex, position, color);
     }
 }
