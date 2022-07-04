@@ -4,29 +4,54 @@
     <projectFile>SixLabors.Fonts.Monogame.Testing/SixLabors.Fonts.Monogame.Testing.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8276e1a5-3d0e-4f23-a132-8667f8126204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Content/Content.mgcb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/FontEngine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Game1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Icon.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/SixLabors.Fonts.Monogame.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/app.manifest" afterDir="false" />
+    <list default="true" id="8276e1a5-3d0e-4f23-a132-8667f8126204" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.MonoGame/SixLabors.Fonts.MonoGame.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.MonoGame/src/Core/DynamicSizeMonogameFont.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.MonoGame/src/Core/FontEngine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.MonoGame/src/Core/MonogameFont.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.MonoGame/src/Utils/ConversionExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.MonoGame/src/Utils/SpriteBatchExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame.Testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame.Testing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SixLabors.Fonts.Monogame/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SixLabors.Fonts.Monogame.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SixLabors.Fonts.MonoGame.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Content/Content.mgcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Icon.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame.x/Icon.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame.x/Icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/SixLabors.Fonts.Monogame.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame.x/SixLabors.Fonts.Monogame.x.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SixLabors.Fonts.Monogame/app.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/SixLabors.Fonts.Monogame.x/app.manifest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35afe748dc054ab986a189cb4772b9a159c00/d3/93475617/FontFamily.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35afe748dc054ab986a189cb4772b9a159c00/d6/b98acdff/GlyphColor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35afe748dc054ab986a189cb4772b9a159c00/ff/6117d2b7/Font.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4cebbca136a64b1986b9cc13453b98d9d000/5a/e4a9c6e2/BezierSpline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4cebbca136a64b1986b9cc13453b98d9d000/95/de2d5099/Line.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4cebbca136a64b1986b9cc13453b98d9d000/97/6185f7af/PointBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4cebbca136a64b1986b9cc13453b98d9d000/de/4c68424a/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/822ee576f5b54656b6628d677715315729800/8e/4e426e9c/DrawTextExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e9bcf0e1f8024648a78a476948165f311b5e00/09/24b35aa9/Image`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e9bcf0e1f8024648a78a476948165f311b5e00/1e/878e8e43/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ef0f4f575d6c4c21bfc710db8f2f75c618b800/48/8a21a902/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ef0f4f575d6c4c21bfc710db8f2f75c618b800/7c/0a558a02/SpriteBatch.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SixLabors.Fonts.MonoGame/src/Core/DynamicSizeMonogameFont.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SixLabors.Fonts.MonoGame/src/Core/FontEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SixLabors.Fonts.MonoGame/src/Core/MonogameFont.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2BTlVpLCPNfiE01TKRYQ090Cks6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,7 +80,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SixLabors.Fonts.Monogame/SixLabors.Fonts.Monogame.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SixLabors.Fonts.Monogame.x/SixLabors.Fonts.Monogame.x.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -74,8 +99,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656937982795</updated>
-      <workItem from="1656937985003" duration="680000" />
+      <workItem from="1656937985003" duration="8981000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1656939056807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656939056807</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +125,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
