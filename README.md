@@ -21,7 +21,7 @@ MonoGameFont font = engine.GetFont("some-cool-font", 24f);
 // We've got the font! Now we can draw.
 // We have an extension method on SpriteBatch just for that.
 // It's in SixLabors.Fonts.MonoGame.Utils
-batch.DrawText(font, "Hello, world!", new Vector2(10, 10));
+batch.DrawText(font, "Hello, world!", new Vector2(10, 10), Color.White);
 ```
 
 ### Default font name
