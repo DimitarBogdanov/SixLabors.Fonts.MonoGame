@@ -4,6 +4,16 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <TargetFrameworks>net6.0;net6.0-windows</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Unofficial.SixLabors.Fonts.MonoGame</PackageId>
+        <Title>SixLabors.Fonts.MonoGame (Unofficial)</Title>
+        <Description>Unofficial port of SixLabors.Fonts for MonoGame.</Description>
+        <Copyright>No Rights Reserved</Copyright>
+        <PackageLicenseUrl>https://unlicense.org/</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/DimitarBogdanov/SixLabors.Fonts.MonoGame</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>fonts, xna, typography, monogame</PackageTags>
+        <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
