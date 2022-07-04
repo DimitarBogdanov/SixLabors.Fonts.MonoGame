@@ -13,7 +13,8 @@
         <RepositoryUrl>https://github.com/DimitarBogdanov/SixLabors.Fonts.MonoGame</RepositoryUrl>
         <RepositoryType>github</RepositoryType>
         <PackageTags>fonts, xna, typography, monogame</PackageTags>
-        <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+        <PackageReleaseNotes>Added color parameter to SpriteBatch.DrawText</PackageReleaseNotes>
+        <PackageVersion>1.1.0</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
