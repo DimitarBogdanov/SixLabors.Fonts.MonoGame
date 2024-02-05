@@ -1,3 +1,9 @@
+### SixLabors updated policy - now if you have revenues over $1M you have to pay license fees
+Please beware. This is why this repo is archived.
+
+---
+
+
 # SixLabors.Fonts.MonoGame
 ***Unofficial*** port of SixLabors.Fonts to MonoGame for .NET 6 and above.
 
